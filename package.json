@@ -179,5 +179,14 @@
     "example": "example"
   },
   "dependencies": {
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "RNPreventScreenshotIosAndroidSpec",
+        "type": "modules",
+        "jsSrcsDir": "src"
+      }
+    ]
   }
 }
